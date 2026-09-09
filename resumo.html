@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+        rel="stylesheet"
+        href="resumo.css"
+    >
+
+    <title>
+        Resumo do Atendimento
+    </title>
+
+</head>
+
+
+<body>
+
+    <main class="container">
+
+
+        <header class="cabecalho">
+
+            <h1>
+                Resumo do Atendimento
+            </h1>
+
+
+            <p>
+                Confira os serviços selecionados.
+            </p>
+
+        </header>
+
+
+        <!-- ÁREA QUE SERÁ EXPORTADA -->
+
+        <section
+            id="conteudo-pdf"
+            class="card"
+        >
+
+            <div
+                id="lista-resumo"
+                class="lista-resumo"
+            >
+
+                <!-- Serviços -->
+
+            </div>
+
+
+            <section class="resultado">
+
+                <span>
+                    Valor total
+                </span>
+
+
+                <strong id="total-resumo">
+
+                    R$ 0,00
+
+                </strong>
+
+            </section>
+
+        </section>
+
+
+        <!-- BOTÕES -->
+
+        <section class="botoes">
+
+
+            <button
+                id="btn-voltar"
+                type="button"
+            >
+
+                Voltar
+
+            </button>
+
+
+            <button
+                id="btn-exportar-pdf"
+                type="button"
+            >
+
+                Exportar PDF
+
+            </button>
+
+
+        </section>
+
+
+    </main>
+
+
+    <!-- BIBLIOTECAS PARA GERAR PDF -->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+    ></script>
+
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    ></script>
+
+
+    <script src="resumo.js"></script>
+
+
+</body>
+
+</html>
