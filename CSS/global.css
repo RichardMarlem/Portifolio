@@ -1,18 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
-:root{
+:root {
+    /* Fontes */
     --font-family: "Poppins", sans-serif;
-    --font-family2: "Sriracha", cursive;
-    --bg1: #F3F4F4;
-    --bg2: #4945457c;
-    --bg3: #853953;
-    --bg4: #853953;
-    --bg5:#2C2C2C;
-    --bggradientetop: linear-gradient(to top, #e2dede, #1614154b);
-    --bggradientebottom: linear-gradient(to bottom, #272424, #423f40);
-    --color1: #612D53;
-    --color2: #000000;
-    --color3: #fff;
-    --color4: #f1c95a;
+    --font-family2: "Inter", sans-serif;
+
+    /* Backgrounds */
+    --bg1: #0b1120;
+    --bg2: #111827;
+    --bg3: #172033;
+    --bg4: #1f2937;
+    --bg5: #020617;
+
+    /* Gradientes */
+    --bggradientetop:
+        radial-gradient(circle at top left, #1e2020 0%, transparent 35%),
+        linear-gradient(to bottom, #020617, #0b1120);
+
+    --bggradientebottom:
+        radial-gradient(circle at top right, #0e7490 0%, transparent 25%),
+        radial-gradient(circle at bottom left, #312e81 0%, transparent 30%),
+        linear-gradient(to bottom, #020617, #0b1120);
+
+    /* Cores principais */
+    --color1: #526D82;
+    --color2: #1e293b;
+    --color3: #e5e7eb;
+    --color4: #ffffff;
+
+    /* Cores extras */
+    --color5: #818cf8;
+    --color6: #94a3b8;
+    --border-color: #334155;
 }
