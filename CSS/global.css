@@ -6,30 +6,30 @@
     --font-family2: "Inter", sans-serif;
 
     /* Backgrounds */
-    --bg1: #0b1120;
-    --bg2: #111827;
-    --bg3: #172033;
-    --bg4: #1f2937;
-    --bg5: #020617;
+    --bg1: #946D6D;
+    --bg2: #946D6D;
+    --bg3: #946D6D;
+    --bg4: #946D6D;
+    --bg5: #946D6D;
 
     /* Gradientes */
     --bggradientetop:
-        radial-gradient(circle at top left, #1e2020 0%, transparent 35%),
-        linear-gradient(to bottom, #020617, #0b1120);
+        radial-gradient(circle at top left, #1F150C 0%, transparent 35%),
+        linear-gradient(to bottom, #452829, #452829);
 
     --bggradientebottom:
-        radial-gradient(circle at top right, #0e7490 0%, transparent 25%),
-        radial-gradient(circle at bottom left, #312e81 0%, transparent 30%),
-        linear-gradient(to bottom, #020617, #0b1120);
+        radial-gradient(circle at top right, #452829 0%, transparent 25%),
+        radial-gradient(circle at bottom left, #452829 0%, transparent 30%),
+        linear-gradient(to bottom, #452829, #ffff);
 
     /* Cores principais */
-    --color1: #526D82;
+    --color1: #ffffff;
     --color2: #1e293b;
     --color3: #e5e7eb;
     --color4: #ffffff;
 
     /* Cores extras */
-    --color5: #818cf8;
-    --color6: #94a3b8;
-    --border-color: #334155;
+    --color5: #ffff;
+    --color6: #ffffff;
+    --border-color: #ffff;
 }
